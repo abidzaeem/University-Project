@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:wght@300&family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <title>ASSIGNMENT - 1</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Default */
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Chakra Petch", sans-serif;
+        font-family: "Kanit", sans-serif;
+        font-family: "Michroma", sans-serif;
+      }
+
+      /* Navigation */
+      nav {
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        padding: 50px 90px;
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      nav #logo {
+        margin: -16px -29px;
+        float: left;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: whitesmoke;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        float: right;
+      }
+
+      nav ul li a {
+        font-size: 1rem;
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        margin: -9px 45px;
+        text-transform: uppercase;
+        color: whitesmoke;
+      }
+
+      nav ul li a:hover {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+      }
+
+      /* BGimage */
+      main .bgimage a {
+        display: flex;
+        height: 304px;
+        margin-top: 20px;
+      }
+
+      .bgimage a img {
+        border-radius: 360px;
+      }
+
+      /* Question */
+      .ques {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 50px;
+        color: whitesmoke;
+        position: relative;
+      }
+
+      .ques h1 {
+        margin: 0px 400px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+      }
+
+      /* QuestionS */
+      .q1,
+      .q2,
+      .q3,
+      .q4,
+      .q5 {
+        border: 3px solid rgba(0, 0, 0, 0.7);
+        box-shadow: 8px 7px rgba(0, 0, 0, 0.7);
+        margin: 0px 100px;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+      }
+      .q1 a,
+      .q2 a,
+      .q3 a,
+      .q4 a,
+      .q5 a {
+        color: black;
+        text-decoration: none;
+      }
+
+      /* Button */
+      .btn button {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        float: right;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        padding-right: 4px;
+        align-content: center;
+        cursor: pointer;
+      }
+
+      /* Footer */
+      footer {
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+
+      .ftrr {
+        text-align: center;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .ftrr h1 {
+        font-size: 2rem;
+      }
+
+      .ftrr p1 {
+        font-size: 1.5rem;
+      }
+
+      p2 {
+        float: right;
+        color: whitesmoke;
+        margin-bottom: 10px;
+        padding-right: 15px;
+      }
+
+      #copyright {
+        color: whitesmoke;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--For Scrolling-->
+    <header>
+      <nav>
+        <div id="logo">Assignment-1</div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li>
+            <a href="https://iul.ac.in/Program/UG/UG_BCA.aspx" target="_blank"
+              >Department</a
+            >
+          </li>
+          <li>
+            <a href="https://www.iul.ac.in/" target="_blank">University</a>
+          </li>
+          <li>
+            <a href="https://linktr.ee/abid_zaeem" target="_blank">About Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="bgimage">
+        <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank"
+          ><img src="webBg.jpeg"
+        /></a>
+      </div>
+      <section>
+        <div class="ques">
+          <h1>Questions</h1>
+        </div>
+        <br /><br /><br />
+
+        <div class="q1">
+          <a href="/Ques1.html"
+            ><p>
+              1.&#20;&#20;Create a webpage with HTML describing your department.
+              Use paragraph and list tags and apply various colors to suitably
+              distinguish key words. Also apply font styling like italics,
+              underline and two other fonts to words you find appropriate. Also
+              use header tags.
+            </p></a
+          >
+        </div>
+        <br /><br />
+
+        <div class="q2">
+          <a href="/Ques2.html"
+            ><p>
+              2.&#20;&#20;Create links on the words e.g. "WiFi" and "LAN" to
+              link them to Wikipedia pages.
+            </p></a
+          >
+        </div>
+        <br /><br />
+
+        <div class="q3">
+          <a href="/Ques3.html"
+            ><p>3.&#20;&#20;Create a table to show your class time-table.</p></a
+          >
+        </div>
+        <br /><br />
+
+        <div class="q4">
+          <a href="/Ques4.html"
+            ><p>
+              4.&#20;&#20;Use table to provide layout to your HTML page
+              describing your university infrastructure.
+            </p></a
+          >
+        </div>
+        <br /><br />
+        <div class="q5">
+          <a href="Ques5.html"
+            ><p>
+              5.&#20;&#20;Use frames such that page is divided into 3 frames
+              20 percent on left to show contents of pages, 60 percent in centre to
+              show body of page, remaining on right to show remarks. Change the
+              background color of the frames, and Embed Audio and Video into
+              your HTML web page.
+            </p></a
+          >
+        </div>
+        <br /><br />
+      </section>
+      <a href="#top" class="btn">
+        <button>Top</button>
+        <br /><br />
+      </a>
+    </main>
+    <footer>
+      <br />
+      <div class="ftrr">
+        <h1>Department Of Computer Application</h1>
+        <br />
+        <p1> CA304&#20; - &#20;Web&#20; Designing&#20; Concepts </p1>
+      </div>
+      <br />
+      <p2><u>Prof.&#20; Ms. Nashra Javed</u></p2>
+      <br /><br /><br />
+      <div id="copyright"><p>© Copyright&#20;&#20; Estd.2022</p></div>
+    </footer>
+  </body>
+</html>

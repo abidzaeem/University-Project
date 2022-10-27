@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Assignment - 1 | Time Table</title>
+  </head>
+  <style>
+    /* Default */
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    /* Navigation */
+    #navbar {
+      background-color: rgb(135, 219, 219);
+      border-radius: 10px;
+      font-family: "Kanit", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    #navbar h1 {
+      margin: 20px;
+      font-size: 2.5rem;
+    }
+
+    .home {
+      display: flex;
+      font-size: 1.1rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    .home a {
+      display: flex;
+      color: black;
+      text-decoration: none;
+      margin: -61px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    /* Heading */
+    .heading h1 {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      text-transform: uppercase;
+      font-size: 5rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    .heading h2 {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-family: "Kanit", sans-serif;
+    }
+
+    /* Table */
+    .tt {
+      display: flex;
+      justify-content: center;
+    }
+    .tt table {
+        width: 90%;
+    }
+    .tt table th {
+        height: 70px;
+    }
+    
+    .tt table td{
+        text-align: center;
+    }
+
+    /* Footer */
+    .nxt {
+      float: right;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+    .nxt:hover {
+      background-color: rgb(135, 219, 219);
+    }
+    /* Thanx */
+    .thnx {
+      background-color: rgb(135, 219, 219);
+      font-family: "Kanit", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    .thnx p1 {
+      font-size: 5rem;
+      margin: 80px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h1>QUESTION.3</h1>
+      </nav>
+      <div class="home">
+        <a href="/index.html">HOME</a>
+      </div>
+    </header>
+    <main>
+      <div class="heading">
+        <h1><u>Time-Table</u></h1>
+        <h2><u>BCA Group - B</u></h2>
+      </div>
+      <section>
+        <div class="tt">
+          <table
+            border="2"
+            bordercolor="black"
+            border-collapse="collapse"
+            cellspacing="0"
+            cellpadding="10"
+            align="alignment"
+            valign="middle"
+          >
+            <thead>
+              <tr>
+                <th rowspan="2">Days/Time</th>
+                <th>9:00 - 9:50</th>
+                <th>9:50 - 10:40</th>
+                <th>10:40 - 11:30</th>
+                <th>11:30 - 12:20</th>
+                <th>12:20 - 01:30</th>
+                <th>01:30 - 02:20</th>
+                <th>02:20 - 03:10</th>
+                <th>03:10 - 04:00</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Monday</th>
+                <td>CA - 303</td>
+                <td>CA - 301</td>
+                <td></td>
+                <td>
+                  CA - 307<br />
+                  CA - 308
+                </td>
+                <td>BREAK</td>
+                <td>CA - 311</td>
+                <td>CA - 311</td>
+                <td>CA - 311</td>
+              </tr>
+              <tr>
+                <th>Tuesday</th>
+                <td>
+                  CA - 307<br />
+                  CA - 308
+                </td>
+                <td>CA - 302</td>
+                <td>CA - 302</td>
+                <td>CA - 304</td>
+                <td>BREAK</td>
+                <td>CA - 310</td>
+                <td>
+                  CA - 310 <br />
+                  CA - 312
+                </td>
+                <td>
+                  CA - 310 <br />
+                  CA - 312
+                </td>
+              </tr>
+              <tr>
+                <th>Wednesday</th>
+                <td>CA - 310</td>
+                <td>CA - 310</td>
+                <td>CA - 310</td>
+                <td>CA - 302</td>
+                <td>BREAK</td>
+                <td>CA - 304</td>
+                <td>CA - 301</td>
+                <td>CA - 303</td>
+              </tr>
+              <tr>
+                <th>Thursday</th>
+                <td>
+                  CA - 307<br />
+                  CA - 308
+                </td>
+                <td></td>
+                <td>301</td>
+                <td></td>
+                <td>BREAK</td>
+                <td>CA - 302</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Friday</th>
+                <td>CA - 304</td>
+                <td>CA - 311</td>
+                <td>
+                  CA - 311<br />
+                  CA - 312
+                </td>
+                <td>
+                  CA - 311 <br />
+                  CA - 312
+                </td>
+                <td>BREAK</td>
+                <td></td>
+                <td>CA - 303</td>
+                <td>CA - 303</td>
+              </tr>
+              <tr>
+                <th>Saturday</th>
+                <td></td>
+                <td>CA - 304</td>
+                <td>CA - 301</td>
+                <td>
+                  CA - 307<br />
+                  CA - 308
+                </td>
+                <td>BREAK</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br /><br /><br /><br />
+      </section>
+      <a class="nxt" href="/Ques4.html"
+          ><p>
+            <i><u>Go To The Next Question</u></i>
+          </p></a
+        >
+      <br />
+    </main>
+    <footer>
+      <div class="thnx">
+        <p1>Thank You!</p1>
+      </div>
+    </footer>
+  </body>
+</html>
